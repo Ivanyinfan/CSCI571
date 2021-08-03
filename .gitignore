@@ -1,0 +1,7 @@
+*.bak
+*.zip
+
+build/
+node_modules/
+
+CSCI571-HW8/server/*.json
