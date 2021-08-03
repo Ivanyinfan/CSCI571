@@ -1,0 +1,29 @@
+div.mobile {
+  .search-select {
+    flex-grow: 1;
+  }
+  .switch {
+    flex-direction: column;
+    align-items: flex-start;
+    .react-switch {
+      align-self: start;
+    }
+  }
+  .home-card-deck {
+    margin-top: 1%;
+  }
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    .card-body.image {
+      padding-right: 1.25rem;
+      padding-bottom: 0;
+    }
+  }
+  .search-card-deck {
+    flex-direction: column;
+  }
+  .favourite-card-deck {
+    flex-direction: column;
+  }
+}

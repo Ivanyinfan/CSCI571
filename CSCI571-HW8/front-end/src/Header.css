@@ -1,0 +1,28 @@
+.navbar {
+    background: linear-gradient(to right, rgb(19,32,64)  ,rgb(60,96,179) );
+    flex-direction: row;
+}
+.search-select {
+    width: 250px;
+    margin-right: 1rem;
+}
+.switch {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+.switch span {
+    color: white;
+}
+.react-switch {
+    align-self: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.bookmark {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+svg {
+    vertical-align: middle;
+}

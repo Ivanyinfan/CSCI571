@@ -1,0 +1,90 @@
+.card-deck {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+.home-card-deck {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-card {
+  display: flex;
+  flex-direction: row;
+  margin: 1% 1% 1% 1%;
+}
+.home-card .card-body.image {
+  flex-basis: 25%;
+  height: auto;
+  align-self: center;
+  padding-right: 0;
+}
+.home-card .card-body {
+  flex-basis: 75%;
+}
+.home-card .card-body .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.home-card .foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1%;
+}
+.home-card .foot .card-text {
+  margin-bottom: 0;
+}
+.home-card .foot .badge {
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.badge {
+  line-height: unset;
+}
+.badge.world {
+  background-color: #7c4eff;
+  /* background-color: #6f42c1; */
+  color: white;
+}
+.badge.technology {
+  background-color:rgb(179, 218, 58);
+}
+.badge.business {
+  background-color: #6610f2;
+}
+.badge.badge-light {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.modal-body label {
+  align-self: center;
+  font-size: 1rem;
+}
+.modal-body div {
+  display: flex;
+  justify-content: space-around;
+}
+.load-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30vh;
+}
+.card {
+  cursor: pointer;
+  color: unset;
+  text-decoration: none;
+}

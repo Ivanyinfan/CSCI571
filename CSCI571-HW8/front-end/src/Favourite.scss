@@ -1,0 +1,35 @@
+p.favourite-result {
+  text-align: center;
+  margin-top: 1%;
+  font-weight: 500;
+}
+h3.favourite-result {
+  margin-top: 1%;
+  margin-bottom: 0;
+  margin-left: 3%;
+}
+.favourite-card-deck {
+  display: flex;
+  flex-direction: row;
+  .card {
+    margin: 1%;
+    flex-basis: 23%;
+    flex-grow: 0;
+    .card-header,.card-footer {
+      background: white;
+      border: none;
+    }
+    .card-header {
+      margin-bottom: 0;
+    }
+    .card-footer {
+      margin-top: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      P {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

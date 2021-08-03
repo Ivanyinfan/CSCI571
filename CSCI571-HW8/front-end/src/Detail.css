@@ -1,0 +1,50 @@
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.detail-card svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 3px;
+}
+.detail-card .card-header {
+  padding-bottom: 0;
+  border-bottom: 0;
+  background-color: white;
+}
+.detail-card .card-header div {
+  display: flex;
+  flex-direction: row;
+}
+.detail-card .card-header .second-row p {
+  flex-grow: 5;
+  margin-bottom: 0;
+}
+.detail-card .share-button {
+  flex-grow: 1;
+}
+.detail-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.detail-card .card-body .card-text.show-bref{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+.detail-card .card-footer {
+  border-top: 0ch;
+  margin-top: 0;
+  padding-top: 0%;
+  text-align: right;
+  background-color: white;
+}
+.Toastify__toast--default {
+  background: #fff;
+  color: black;
+}
